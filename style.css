@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 16px;
+}
+
+body {
+   background-color:#DDDDDD;
+   height: 90vh;
+}
+
+header {
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    -webkit-box-shadow: -1px 4px 22px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 22px -6px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 22px -6px rgba(0,0,0,0.75);
+}
+
+#header {
+    height: 90px;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 34px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    user-select: none;
+}
+
+.container {
+    width: 1300px;
+    display: flex;
+    align-items: center;
+}
+
+#img {
+    max-width:160px;
+    cursor: pointer;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    font-size: 19px;
+    padding: 0 30px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.links:hover:after{
+    width: 100%;
+    left: 0;
+    background: black;
+}
+
+.links:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: black;
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+}
+
+.links:active {
+    color: darkcyan;
+}
+
+.language-button {
+    user-select: none;
+    font-size: 19px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-width: 2px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    background: transparent;
+    font-weight: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: 0.3s;
+}
+
+.language-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.language-button:active {
+    background-color: darkslategray;
+}
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.down-side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 1200px;
+    padding: 20px;
+}
+
+#hamburger-button {
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.about-me-area {
+    width: 100%;
+    height: 200px;
+    background-color: #E5E7E9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.contant-links-li {
+    cursor: pointer;
+    font-size: 27px;
+    padding-left: 25px;
+    color: black;
+}
+
+.description {
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contant-links {
+    margin-top: 40px;
+    
+}
+
+@media (max-width:900px){
+    .language-button {
+        font-size: 16px;
+    }
+
+    .links {
+        font-size: 16px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width:700px){
+    .language-button {
+        font-size: 16px;
+    }
+
+    .links {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+}
+
+
+@media (max-width:550px){
+    
+    header {
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .language-button {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    #hamburger-button {
+        
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+
+}
+
+@media (max-width:400px){
+    
+    header {
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .contant-links-li {
+        font-size: 25px;
+    }
+    
+    .about-me-area {
+        font-size: 17px;
+    }    
+
+    .description {
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
