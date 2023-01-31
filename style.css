@@ -71,6 +71,10 @@ ul {
     justify-content: space-between;
 }
 
+.logo-div {
+    display: flex;
+}
+
 .links {
     font-size: 19px;
     padding: 0 30px;
@@ -174,9 +178,14 @@ ul {
     color: black;
 }
 
+h1 {
+    font-weight: normal;
+}
+
 .description {
     font-size: 24px;
     display: flex;
+    font-style: normal;
     flex-wrap: wrap;
     vertical-align: bottom;
     margin-left: auto;
