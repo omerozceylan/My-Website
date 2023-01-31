@@ -36,6 +36,17 @@ header {
     cursor: pointer;
     font-family: 'Quicksand', sans-serif;
     user-select: none;
+    width: 500px;
+}
+
+#text {
+    font-size:24px; 
+    color:#DDDDDD;
+    cursor: auto;
+}
+
+#sum {
+    font-size:30px; color:#DDDDDD;  cursor: auto
 }
 
 .container {
@@ -186,12 +197,12 @@ ul {
     }
 
     .logo {
-        font-size: 26px;
+        font-size: 30px;
     }
 
 }
 
-@media (max-width:700px){
+@media (max-width:850px){
     .language-button {
         font-size: 16px;
     }
@@ -199,10 +210,13 @@ ul {
     .links {
         font-size: 16px;
         padding: 12px;
+        display: none;
     }
 
     .logo {
-        font-size: 26px;
+        font-size: 30px;
+        width: 380px;
+        white-space: nowrap;
     }
 
 }
@@ -215,8 +229,8 @@ ul {
     }
 
     .logo {
-        font-size: 30px;
-        text-align: center;
+        font-size: 25px;
+        text-align: left;
         width: 100%;
     }
 
@@ -229,23 +243,30 @@ ul {
     }
 
     #hamburger-button {
-        
+        display: flex;
         font-size: 30px;
         margin-right: 20px;
     }
 
+    #text {
+        font-size:24px; 
+    }
+
+    #sum {
+        font-size:24px; color:#DDDDDD;  cursor: auto;
+    }
 
 }
 
-@media (max-width:400px){
+@media (max-width:420px){
     
     header {
         justify-content: center;
     }
 
     .logo {
-        font-size: 30px;
-        text-align: center;
+        font-size: 25px;
+        text-align: left;
         width: 100%;
     }
 
@@ -262,4 +283,49 @@ ul {
         display: flex;
         flex-wrap: wrap;
     }
+    #text {
+        font-size:20px;
+    } 
+
+    #sum {
+        font-size:20px; color:#DDDDDD;  cursor: auto
+    }
 }
+
+@media (max-width:360px){
+    
+    header {
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 20px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .contant-links-li {
+        font-size: 25px;
+    }
+    
+    .about-me-area {
+        font-size: 17px;
+    }    
+
+    .description {
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #text {
+        font-size:16px;
+        display: none;
+    } 
+
+    #sum {
+        font-size:20px; color:#DDDDDD;  cursor: auto;
+        display: none;
+    }
+}
+
