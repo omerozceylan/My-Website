@@ -178,6 +178,7 @@ ul {
     font-size: 24px;
     display: flex;
     flex-wrap: wrap;
+    vertical-align: bottom;
     margin-left: auto;
     margin-right: auto;
 }
@@ -319,12 +320,49 @@ ul {
 
     #text {
         font-size:16px;
-        display: none;
     } 
 
     #sum {
-        font-size:20px; color:#DDDDDD;  cursor: auto;
-        display: none;
+        font-size:15px; color:#DDDDDD;  cursor: auto;
+        
     }
 }
+
+@media (max-width:280px){
+    
+    header {
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 14px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .contant-links-li {
+        font-size: 25px;
+    }
+    
+    .about-me-area {
+        font-size: 17px;
+    }    
+
+    .description {
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #text {
+        font-size:14px;
+    } 
+
+    #sum {
+        font-size:15px; color:#DDDDDD;  cursor: auto;
+        
+    }
+}
+
+
 
