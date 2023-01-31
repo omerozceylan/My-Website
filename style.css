@@ -221,7 +221,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 0 30px;
+    padding: 30px 30px;
     border: solid;
     border-width:0.2px;
     border-radius: 5px;
@@ -256,7 +256,8 @@ h1 {
 
     .info {
         flex-wrap: wrap;
-        padding: 0 30px;
+        padding: 30px 30px;
+
     }
 }
 
@@ -315,7 +316,8 @@ h1 {
 
     .info {
         flex-wrap: wrap;
-        padding: 0 30px;
+        padding: 30px 30px;
+
     }
 
     .skill-icons {
