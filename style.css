@@ -10,7 +10,7 @@
 }
 
 body {
-   background-color:#DDDDDD;
+   background-color:#fafafa;
    height: 90vh;
 }
 
@@ -109,7 +109,7 @@ ul {
 .language-button {
     user-select: none;
     font-size: 19px;
-    margin-right: 5px;
+    margin-right: 20px;
     cursor: pointer;
     border-width: 2px;
     padding: 7px 20px;
@@ -158,11 +158,14 @@ ul {
     display: none;
 }
 
-.about-me-area {
+.box {
     width: 100%;
     height: 200px;
     background-color: #E5E7E9;
+    border: solid;
     border-radius: 5px;
+    border-width: 0.1px;
+    border-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,6 +200,47 @@ h1 {
     
 }
 
+.project-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px 0;
+}
+
+.skill-icons {
+    font-size: 50px;
+    color: black;
+    margin: 20px;
+    user-select: none;
+}
+
+.info {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+    border: solid;
+    border-width:0.2px;
+    border-radius: 5px;
+}
+
+.holder {
+
+    width: 1200px;
+}
+
+.one {
+    font-size: 45px;
+}
+
+.two {
+    font-size: 40px;
+}
+
+
 @media (max-width:900px){
     .language-button {
         font-size: 16px;
@@ -210,6 +254,10 @@ h1 {
         font-size: 30px;
     }
 
+    .info {
+        flex-wrap: wrap;
+        padding: 0 30px;
+    }
 }
 
 @media (max-width:850px){
@@ -265,6 +313,17 @@ h1 {
         font-size:24px; color:#DDDDDD;  cursor: auto;
     }
 
+    .info {
+        flex-wrap: wrap;
+        padding: 0 30px;
+    }
+
+    .skill-icons {
+        font-size: 36px;
+        color: black;
+        margin: 20px;
+        user-select: none;
+    }
 }
 
 @media (max-width:420px){
@@ -283,7 +342,7 @@ h1 {
         font-size: 25px;
     }
     
-    .about-me-area {
+    .box {
         font-size: 17px;
     }    
 
@@ -298,6 +357,18 @@ h1 {
 
     #sum {
         font-size:20px; color:#DDDDDD;  cursor: auto
+    }
+
+    .skill-icons {
+        font-size: 30px;
+        color: black;
+        margin: 20px;
+        user-select: none;
+    }
+
+    .skills {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -317,7 +388,7 @@ h1 {
         font-size: 25px;
     }
     
-    .about-me-area {
+    .box {
         font-size: 17px;
     }    
 
@@ -334,6 +405,17 @@ h1 {
     #sum {
         font-size:15px; color:#DDDDDD;  cursor: auto;
         
+    }
+    
+    .skill-icons {
+        font-size: 30px;
+        color: black;
+        margin: 20px;
+        user-select: none;
+    }
+
+    .skills {
+        display: block;
     }
 }
 
@@ -353,7 +435,7 @@ h1 {
         font-size: 25px;
     }
     
-    .about-me-area {
+    .box {
         font-size: 17px;
     }    
 
