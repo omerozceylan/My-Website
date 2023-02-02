@@ -160,8 +160,8 @@ ul {
 }
 
 .content {
-
     width: calc(100% - 30px);
+    max-width: 1250px;
     margin-bottom: 50px;
 }
 
@@ -218,7 +218,7 @@ h1 {
 }
 
 .info {
-    font-size: 20px;
+    font-size: 24px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -401,7 +401,7 @@ h1 {
         padding-top: 17px;
         padding-bottom: 20px;
         width: 100%;
-        font-size: 22px;
+        font-size: 24px;
         height: auto;
        
     }
@@ -436,10 +436,10 @@ h1 {
         padding-right: 20px;
         padding-top: 17px;
         width: 100%;
-        font-size: 22px;
+        font-size: 26px;
         height:auto;
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 22px;
 
     }
 
@@ -639,7 +639,7 @@ h1 {
         height: auto;
         width: 100%;
         margin: 0;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .project-card-title {
