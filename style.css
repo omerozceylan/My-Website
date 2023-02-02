@@ -160,8 +160,9 @@ ul {
 }
 
 .content {
-    width: 1200px;
-    padding: 20px;
+
+    width: calc(100% - 30px);
+    margin-bottom: 50px;
 }
 
 #hamburger-button {
@@ -208,13 +209,6 @@ h1 {
     
 }
 
-.project-box {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 30px 0;
-}
 
 .skill-icons {
     font-size: 50px;
@@ -248,7 +242,6 @@ h1 {
 
 .project-box {
     display: flex;
-    width: calc(100% - 20px);
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -257,6 +250,7 @@ h1 {
 
 .project-box-title {
     font-size: 40px;
+    padding-top: 30px;
 }
 
 .project-container{
