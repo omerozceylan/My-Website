@@ -376,23 +376,11 @@ h1 {
 
 @media (max-width:1200px){
 
-    .card-img {
-        display: none;
-    }
-
-    .card-img-xl {
-        display: block;
-        width: 300px;
-        border: solid;
-    }
-
     .project-container {
         justify-content: center;
     }
 
     .project-card-title {
-        margin-top: 40px;
-        margin-left: 30px;
         font-weight: normal;
         font-size: 33px;
     }
@@ -402,16 +390,16 @@ h1 {
         height: 330px;
         background-color: #fefefe;
         display: flex;
-        margin: 0 10px;
         border-bottom: solid 2px;
     }
     
     .project-info {
         display: flex;
         flex-wrap: wrap;
-        padding-left: 20px;
+        padding-left: 0px;
         padding-right: 20px;
         padding-top: 17px;
+        padding-bottom: 20px;
         width: 100%;
         font-size: 22px;
         height: auto;
@@ -425,14 +413,6 @@ h1 {
 @media (max-width:900px){
     .language-button {
         font-size: 16px;
-    }
-
-    .card-img-xl {
-        display: none;
-    }
-
-    .card-img {
-        display: block;
     }
 
     .links {
@@ -560,13 +540,8 @@ h1 {
 
 
     .card-button {
-        width: 60px;
+        width: 110px;
         margin-right: 10px;
-    }
-
-    .card-img {
-        width:150px;
-   
     }
 
     .card-button-area {
@@ -579,11 +554,6 @@ h1 {
 }
 
 @media (max-width:450px){
-
-    .card-img-1 {
-        display: block;
-    }
-
     
     header {
         justify-content: center;
@@ -633,13 +603,6 @@ h1 {
         margin-right: 0px;
     }
 
-    .card-img {
-        width:150px;
-        display: none;
-        height: 180px;
-        border: solid 2px;
-    }
-
     .card-button-area {
         margin-left: 0px;
         margin-top: 20px;
@@ -674,16 +637,16 @@ h1 {
         display: flex;
         flex-wrap: wrap;
         height: auto;
-        width: 200px;
+        width: 100%;
         margin: 0;
-       
+        
     }
 
     .project-card-title {
         margin-top: 10px;
         /*margin-left: 10px;*/
         font-weight: normal;
-        font-size: 26px;
+        font-size: 34px;
         margin-left: 0;
     }
 
@@ -692,16 +655,9 @@ h1 {
         display: flex;
         margin-left: 0px;
         margin-top: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
-    .card-large-img {
-        display: none;
-        width: 100%;
-        height: 200px;
-        border: solid 2px;
-        background-size: cover;
-    }
 }
 
 @media (max-width:380px){
