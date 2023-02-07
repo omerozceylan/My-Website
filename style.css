@@ -269,6 +269,7 @@ h1 {
   flex-direction: column;
   align-items: flex-start;
   overflow: hidden;
+  position: relative;
 }
 
 .project-card-img {
@@ -629,6 +630,7 @@ h1 {
 
   .project-card {
     width: 100%;
+    align-items: center;
   }
 
   .project-info {
@@ -650,6 +652,7 @@ h1 {
     margin-left: 30px;
     margin-top: 0px;
     display: flex;
+    justify-content: space-evenly
   }
 }
 
