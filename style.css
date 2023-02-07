@@ -640,6 +640,7 @@ h1 {
     padding-right: 20px;
     width: 100%;
     font-size: 22px;
+    justify-content: space-evenly;
     height: auto;
   }
 
