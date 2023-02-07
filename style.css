@@ -265,7 +265,6 @@ h1 {
   background-color: #fefefe;
   border-bottom: solid 2px;
   transition: all 0.3s;
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -273,7 +272,7 @@ h1 {
 }
 
 .project-card-img {
-    display: flex;
+    display: none;
     top:0;
     object-fit: contain;
     left: 0;
@@ -284,6 +283,7 @@ h1 {
     border-bottom-right-radius:10px;
     border-bottom-left-radius:10px ;
     justify-content: center;
+    overflow: hidden;
 }
 
 .project-card-img.active {
@@ -513,8 +513,8 @@ h1 {
     flex-wrap: wrap;
     padding-left: 0px;
     padding-right: 20px;
-    padding-top: 17px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 100%;
     font-size: 24px;
     height: auto;
@@ -636,7 +636,6 @@ h1 {
     flex-wrap: wrap;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 17px;
     width: 100%;
     font-size: 18px;
     height: auto;
@@ -713,8 +712,7 @@ h1 {
 
   .project-card {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
     height: auto;
     padding: 20px;
   }
@@ -727,7 +725,7 @@ h1 {
 
   .project-card-right-side {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin: 0;
     height: 100%;
