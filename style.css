@@ -545,12 +545,13 @@ h1 {
     flex-wrap: wrap;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 0;
     padding-top: 17px;
     width: 100%;
-    font-size: 26px;
+    font-size: 24px;
     height: auto;
     margin-bottom: 20px;
-    font-size: 20px;
+    
   }
 }
 
