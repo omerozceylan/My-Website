@@ -631,6 +631,7 @@ h1 {
   .project-card {
     width: 100%;
     align-items: center;
+    justify-content: space-evenly
   }
 
   .project-info {
@@ -640,7 +641,6 @@ h1 {
     padding-right: 20px;
     width: 100%;
     font-size: 22px;
-    justify-content: space-evenly;
     height: auto;
   }
 
