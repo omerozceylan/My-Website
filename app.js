@@ -9,12 +9,6 @@
       
 //     })
 // })
-
-
-
-
-
-
 /*
 let downButton = document.querySelectorAll('.card-button-down')
 
@@ -27,3 +21,5 @@ function changeWitdh(){
 
 }
 */
+
+
