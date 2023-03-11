@@ -514,6 +514,12 @@ h1 {
   margin: 0;
 }
 
+.learning {
+  padding: 10px;
+  font-size: 30px;
+  border-top: solid;
+}
+
 @media (max-width: 1200px) {
   .project-container {
     justify-content: center;
@@ -603,6 +609,11 @@ h1 {
 }
 
 @media (max-width: 550px) {
+
+  .learning {
+    font-size: 28px;
+  }
+
   .project-box-title {
     font-size: 30px;
   }
@@ -698,6 +709,10 @@ h1 {
 
   .box {
     font-size: 17px;
+  }
+
+  .info {
+    font-size: 20px;
   }
 
   .description {
