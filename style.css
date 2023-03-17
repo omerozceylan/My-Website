@@ -350,7 +350,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   user-select: none;
   width: auto;
   height: 25px;
@@ -360,10 +359,10 @@ h1 {
   transition: 0.3s;
 }
 
-.badge:hover {
+/* .badge:hover {
   font-size: 22px;
   background-color: darkgrey;
-}
+} */
 
 .card-button-area {
   display: flex;
@@ -374,16 +373,15 @@ h1 {
 
 .card-button {
   height: 40px;
-  width: 110px;
+  width: 120px;
   border: solid;
   cursor: pointer;
   border-width: 1px;
   text-align: center;
-  background-color: #3a8891;
+  background-color: #076a77;
   border-color: #3a8891;
   color: #eff5f5;
   border-radius: 2px;
-  box-shadow: #422800 4px 4px 0 0;
   transition: 0.2s;
 }
 
@@ -392,39 +390,12 @@ h1 {
     gap:0.50rem;
 }
 
-.card-button-down {
-  height: 40px;
-  width: fit-content;
-  padding: 0 10px;
-  border: solid;
-  cursor: pointer;
-  border-width: 1px;
-  text-align: center;
-  background-color: #3a8891;
-  border-color: #3a8891;
-  color: #eff5f5;
-  border-radius: 2px;
-  box-shadow: #422800 4px 4px 0 0;
-  transition: 0.2s;
-}
 
-.card-button-down:hover {
-  background-color: #0e5e6f;
-}
-
-.card-button-down:active {
-  transform: translate(2px, 2px);
-  box-shadow: #422800 2px 2px 0 0;
-}
 
 .card-button:hover {
-  background-color: #0e5e6f;
+  background-color: #64757a;
 }
 
-.card-button:active {
-  transform: translate(2px, 2px);
-  box-shadow: #422800 2px 2px 0 0;
-}
 
 .flex-grow {
     display: flex;
@@ -480,21 +451,6 @@ h1 {
   object-fit: contain;
 }
 
-.umutlarim {
-  width: 500px;
-  height: 0px;
-  background-color: red;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 50px;
-  transition:all 1s;
-}
-
-.yuksekUmutlarim {
-  height: 600px;
-}
 
 .theDivv{
   height: auto;
