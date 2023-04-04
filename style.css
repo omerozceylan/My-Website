@@ -698,7 +698,9 @@ h1 {
   }
 
   .card-button {
-    width: 90px;
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
     margin-right: 0px;
   }
 
@@ -736,14 +738,15 @@ h1 {
     height: auto;
     width: 100%;
     margin: 0;
-    font-size: 22px;
+    padding-top:0 ;
+    font-size: 18px;
   }
 
   .project-card-title {
     margin-top: 10px;
     /*margin-left: 10px;*/
     font-weight: normal;
-    font-size: 34px;
+    font-size: 26px;
     margin-left: 0;
   }
 
@@ -751,8 +754,8 @@ h1 {
     width: auto;
     display: flex;
     margin-left: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
