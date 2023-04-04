@@ -374,13 +374,11 @@ h1 {
 .card-button {
   height: 40px;
   width: 120px;
-  border: solid;
   cursor: pointer;
-  border-width: 1px;
   text-align: center;
-  background-color: #076a77;
-  border-color: #3a8891;
-  color: #eff5f5;
+  border: 2px solid #bac6d0;
+  background-color: #e5e7e9;
+  color:black;
   border-radius: 3px;
   transition: 0.2s;
 }
@@ -391,9 +389,10 @@ h1 {
 }
 
 
-
 .card-button:hover {
-  background-color: #64757a;
+  background-color: #8a9598;
+  border-color: #8a9598;
+  font-size: 19px;
 }
 
 
