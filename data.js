@@ -50,12 +50,16 @@ const projectsContainerNode = document.querySelector('.project-container')
 
 
 projects.forEach((item)=>{
-    
+    let isMedium = false
     //All badges printing here.
     let badgeArea = ''
     for(let i=0;i<item.badges.length;i++){
         upperArrElement = item.badges[i].toUpperCase()
         badgeArea+= `<div class="badge">${upperArrElement}</div>`
+    }
+
+    if(item.title == 'Medium Clone'){
+       isMedium = true
     }
 
     let html = `
@@ -68,12 +72,12 @@ projects.forEach((item)=>{
                 ${item.info}
             </p>
             <div class="card-button-area">
-                <div class="card-button-area-left">
+                <div class="card-button-area-left ">
                     <a
                         target="_blank"
                         href="${item.liveUrl}"
                     >
-                        <button class="card-button">Live project</button>
+                        <button class="card-button ${isMedium ? 'medium-button': 'any'}">Live project</button>
                     </a>
                     <a
                         target="_blank"
