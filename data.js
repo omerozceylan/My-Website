@@ -14,8 +14,8 @@ const projects = [
             'js', 'html', 'css'
         ],
         info:'A simple calculator with functions for 4 arithmetic operations and percentage calculation.',
-        liveUrl:'https://calculator-tawny-psi.vercel.app/',
-        githubUrl:'https://github.com/omerozceylan/calculator-with-js'
+        liveUrl:'https://calculator-with-js-rewrite.vercel.app/',
+        githubUrl:'https://github.com/omerozceylan/calculator-with-js-rewrite'
     },
     {
         title:'Medium Clone',
