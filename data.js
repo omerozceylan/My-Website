@@ -22,7 +22,7 @@ const projects = [
         badges:[
             'html', 'Bootstrap', 'css'
         ],
-        info:"My medium clone, it's my old project. And i don't use bootstrap anymore(only pc)",
+        info:"My medium clone, it's my old project. And i don't use bootstrap anymore(only 1200px+ screens)",
         liveUrl:'https://clone-medium-omer-ozceylan.vercel.app/',
         githubUrl:'https://github.com/omerozceylan/clone-medium'
     },
