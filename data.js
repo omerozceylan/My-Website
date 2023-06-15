@@ -26,15 +26,7 @@ const projects = [
         liveUrl:'https://clone-medium-omer-ozceylan.vercel.app/',
         githubUrl:'https://github.com/omerozceylan/clone-medium'
     },
-    {
-        title:'Counter',
-        badges:[
-            'js', 'html', 'css'
-        ],
-        info:'Basic counter with local storage',
-        liveUrl:'https://count-people.vercel.app/',
-        githubUrl:'https://github.com/omerozceylan/count-people'
-    },
+   
     {
         title:'To Do List',
         badges:[
