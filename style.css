@@ -41,9 +41,9 @@ header {
   position: fixed;
   z-index: 200;
   background-color: white;
-  -webkit-box-shadow: 0px 1px 28px -8px rgba(0,0,0,0.84);
-  -moz-box-shadow: 0px 1px 28px -8px rgba(0,0,0,0.84);
-  box-shadow: 0px 1px 28px -8px rgba(0,0,0,0.84);
+  -webkit-box-shadow: 0px 1px 28px -8px rgba(0, 0, 0, 0.84);
+  -moz-box-shadow: 0px 1px 28px -8px rgba(0, 0, 0, 0.84);
+  box-shadow: 0px 1px 28px -8px rgba(0, 0, 0, 0.84);
 }
 
 #header {
@@ -241,10 +241,10 @@ h1 {
   align-items: center;
   justify-content: space-between;
   height: auto;
-  background-color: #E5E7E9;
+  background-color: #e5e7e9;
 }
 
-.project-box::nth-last-child(-n+2) {
+.project-box::nth-last-child(-n + 2) {
   background-color: red;
   border-bottom: 0;
 }
@@ -254,19 +254,19 @@ h1 {
 }
 
 .project-box-bottom {
-  background-color:#E5E7E9 ;
+  background-color: #e5e7e9;
   width: 100%;
   height: 30px;
-  border-width:2px ;
-  border-bottom-left-radius:7px;
-  border-bottom-right-radius:7px;
+  border-width: 2px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 
 .project-container {
   border-top: solid 1px;
   margin-top: 50px;
   display: flex;
-  border-radius:7px ;
+  border-radius: 7px;
   gap: 10px;
   flex-wrap: wrap;
   background-color: #fefefe;
@@ -287,36 +287,34 @@ h1 {
 }
 
 .project-card-img {
-    display: none;
-    top:0;
-    object-fit: contain;
-    left: 0;
-    width: 100%;
-    height: 0px;
-    transition: 0.8s;
-    transition-delay: 0.5;
-    border-bottom-right-radius:10px;
-    border-bottom-left-radius:10px ;
-    justify-content: center;
-    overflow: hidden;
+  display: none;
+  top: 0;
+  object-fit: contain;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  transition: 0.8s;
+  transition-delay: 0.5;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .project-card-img.active {
-    display: flex;
-    z-index: 20;
-    transition-delay: 0.5;
-    top: 100%;
+  display: flex;
+  z-index: 20;
+  transition-delay: 0.5;
+  top: 100%;
 }
 
 .project-images {
   object-fit: contain;
 }
 
-
 .project-card-title {
   font-weight: normal;
   font-size: 30px;
-  
 }
 
 .expanded {
@@ -378,16 +376,15 @@ h1 {
   text-align: center;
   border: 2px solid #bac6d0;
   background-color: #e5e7e9;
-  color:black;
+  color: black;
   border-radius: 3px;
   transition: 0.2s;
 }
 
 .card-button-area-left {
-    display: flex;
-    gap:0.50rem;
+  display: flex;
+  gap: 0.5rem;
 }
-
 
 .card-button:hover {
   background-color: #8a9598;
@@ -395,15 +392,13 @@ h1 {
   font-size: 19px;
 }
 
-
 .flex-grow {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 0;
-    align-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 0;
+  align-content: flex-end;
 }
-
 
 .checkbox-area {
   width: calc(100%);
@@ -430,11 +425,11 @@ h1 {
   pointer-events: none;
   user-select: none;
   cursor: default;
-  color: #84D2C5;
+  color: #84d2c5;
 }
 
 .unuseble-buttons {
-  background-color: #97DECE;
+  background-color: #97dece;
   pointer-events: none;
   user-select: none;
   cursor: default;
@@ -450,8 +445,7 @@ h1 {
   object-fit: contain;
 }
 
-
-.theDivv{
+.theDivv {
   height: auto;
   width: 600px;
   display: flex;
@@ -489,7 +483,7 @@ h1 {
     width: 100%;
     height: 330px;
     background-color: #fefefe;
-  
+
     border-bottom: solid 2px;
   }
 
@@ -535,7 +529,6 @@ h1 {
     font-size: 24px;
     height: auto;
     margin-bottom: 20px;
-    
   }
 }
 
@@ -564,7 +557,6 @@ h1 {
 }
 
 @media (max-width: 550px) {
-
   .learning {
     font-size: 28px;
   }
@@ -621,7 +613,7 @@ h1 {
   .project-card {
     width: 100%;
     align-items: center;
-    justify-content: space-evenly
+    justify-content: space-evenly;
   }
 
   .project-info {
@@ -643,7 +635,7 @@ h1 {
     margin-left: 30px;
     margin-top: 0px;
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
   }
 }
 
@@ -742,7 +734,7 @@ h1 {
     height: auto;
     width: 100%;
     margin: 0;
-    padding-top:0 ;
+    padding-top: 0;
     font-size: 18px;
   }
 
