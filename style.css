@@ -60,6 +60,27 @@ header {
   margin-bottom: 20px;
 }
 
+.close-button {
+  color: white;
+  background-color: black;
+  padding: 4px 9px;
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 500;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.close-button:hover {
+  background-color: rgb(84, 84, 84);
+}
+.close-button:active {
+  background-color: rgb(0, 0, 0);
+}
+
 .archive-button-div {
   display: flex;
   flex-direction: column;
