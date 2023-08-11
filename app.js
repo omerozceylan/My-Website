@@ -1,3 +1,8 @@
+let archiveDiv = document.querySelector(".archive-side");
+let archiveButton = document.querySelector(".archive-button");
+let archiveInfo = document.querySelector(".archive-section");
+let closeButton = document.querySelector(".close-button");
+
 window.onresize = function () {
   let mediumButton = document.querySelector(".medium-button");
   if (window.innerWidth < 1200) {
@@ -8,11 +13,13 @@ window.onresize = function () {
   }
 };
 
-let archiveDiv = document.querySelector(".archive-side");
-let archiveButton = document.querySelector(".archive-button");
-let archiveInfo = document.querySelector(".archive-section");
-
 archiveButton.addEventListener(`click`, toggleArchive);
+closeButton.addEventListener("click", closeArchivedSide);
+
+function closeArchivedSide() {
+  archiveDiv.classList.toggle("hidden");
+  archiveInfo.classList.toggle("hidden");
+}
 
 function toggleArchive() {
   archiveDiv.classList.toggle("hidden");
