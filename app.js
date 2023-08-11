@@ -9,5 +9,12 @@ window.onresize = function () {
 };
 
 let archiveDiv = document.querySelector(".archive-side");
+let archiveButton = document.querySelector(".archive-button");
+let archiveInfo = document.querySelector(".archive-section");
 
-archiveDiv.style.display = `block`;
+archiveButton.addEventListener(`click`, toggleArchive);
+
+function toggleArchive() {
+  archiveDiv.classList.toggle("hidden");
+  archiveInfo.classList.add("hidden");
+}
