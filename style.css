@@ -57,6 +57,8 @@ header {
 .archive-info {
   max-width: 500px;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
